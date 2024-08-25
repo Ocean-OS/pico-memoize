@@ -18,7 +18,6 @@ function memoized(fn) {
     }
     let cache = new Map();
     return function() {
-        console.log(cache);
         if (cache.has(JSON.stringify([...arguments], serializer()))) return cache.get(JSON.stringify([...arguments], serializer()));
         let result = fn(...arguments);
         cache.set(JSON.stringify([...arguments], serializer()), result);
