@@ -4,7 +4,8 @@
   "main": "index.js",
   "homepage": "https://github.com/Ocean-OS/pico-memoize#readme",
   "repository": {
-    "url": "https://github.com/Ocean-OS/pico-memoize"
+    "type": "git",
+    "url": "https://github.com/Ocean-OS/pico-memoize.git"
   },
   "keywords": [
     "memoize",
