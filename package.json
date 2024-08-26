@@ -1,6 +1,6 @@
 {
   "name": "pico-memoize",
-  "version": "1.0.0",
+  "version": "1.0.0.0",
   "main": "index.mjs",
   "homepage": "https://github.com/Ocean-OS/pico-memoize#readme",
   "repository": {
