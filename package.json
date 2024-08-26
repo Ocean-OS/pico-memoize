@@ -1,12 +1,17 @@
 {
   "name": "pico-memoize",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.mjs",
   "homepage": "https://github.com/Ocean-OS/pico-memoize#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ocean-OS/pico-memoize.git"
   },
+  "type": "module",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs"
+  }
   "keywords": [
     "memoize",
     "memoization",
