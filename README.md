@@ -1,4 +1,4 @@
-# pico-memoize
+# pico-memoize ![minimized size: 735B](https://img.shields.io/bundlephobia/min/pico-memoize)   
 A tiny Javascript memoization library. 
 ## Usage
 ```js
