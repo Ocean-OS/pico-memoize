@@ -24,4 +24,4 @@ function memoized(fn) {
         return result;
     }
 }
-exports = memoized; 
+module.exports = memoized; 
